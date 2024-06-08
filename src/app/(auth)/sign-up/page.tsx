@@ -2,8 +2,8 @@ import { cn } from '@/lib/utils'
 import { FC } from 'react'
 import Link from 'next/link'
 import { buttonVariants } from '@/components/ui/Button'
-import SignIn from '@/components/SignIn'
 import { ChevronLeftIcon } from 'lucide-react'
+import SignUp from '@/components/SignUp'
 
 const page: FC= () => {
   return <div className='absolute inset-0'>
@@ -13,7 +13,7 @@ const page: FC= () => {
       'self-start -mt-20')}>
         <ChevronLeftIcon className='mr-2 h-4 w-4'/>Home
         </Link>
-        <SignIn/>
+        <SignUp/>
     </div>y
   </div>
 }
